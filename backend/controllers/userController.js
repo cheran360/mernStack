@@ -91,7 +91,7 @@ const getMe = asyncHandler(async(req, res) => {
         id: _id,
         name,
         email,
-    })
+    });
 });
 
 
